@@ -1,0 +1,1114 @@
+Script started on 2023-07-07 14:48:33+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ [K]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ sudo apt install git-all
+[sudo] password for rishu_singh: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package git-all[0m
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ ^C
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ sudo apt install git
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3.11).
+git set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ sudo apt-get install dh-autoreconf libcurl4-gnutls-dev libexpat1-dev \gettext libz-dev libssl-dev
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Note, selecting 'zlib1g-dev' instead of 'libz-dev'
+The following additional packages will be installed:
+  autoconf automake autopoint autotools-dev binutils binutils-common
+  binutils-x86-64-linux-gnu build-essential cpp cpp-9 debhelper
+  dh-strip-nondeterminism dpkg-dev dwz fakeroot g++ g++-9 gcc gcc-9 gcc-9-base
+  intltool-debian libalgorithm-diff-perl libalgorithm-diff-xs-perl
+  libalgorithm-merge-perl libarchive-cpio-perl libarchive-zip-perl libasan5
+  libatomic1 libbinutils libc-dev-bin libc6-dev libcc1-0 libcroco3 libcrypt-dev
+  libctf-nobfd0 libctf0 libdebhelper-perl libdpkg-perl libfakeroot
+  libfile-fcntllock-perl libfile-stripnondeterminism-perl libgcc-9-dev libgomp1
+  libisl22 libitm1 liblsan0 libltdl-dev libmail-sendmail-perl libmpc3 libquadmath0
+  libstdc++-9-dev libsub-override-perl libsys-hostname-long-perl libtool libtsan0
+  libubsan1 linux-libc-dev m4 make manpages-dev po-debconf
+Suggested packages:
+  autoconf-archive gnu-standards autoconf-doc binutils-doc cpp-doc gcc-9-locales
+  dh-make debian-keyring g++-multilib g++-9-multilib gcc-9-doc gcc-multilib flex
+  bison gdb gcc-doc gcc-9-multilib gettext-doc libasprintf-dev libgettextpo-dev
+  glibc-doc libcurl4-doc libgnutls28-dev libidn11-dev libkrb5-dev libldap2-dev
+  librtmp-dev libssh2-1-dev pkg-config bzr libtool-doc libssl-doc libstdc++-9-doc
+  gfortran | fortran95-compiler gcj-jdk m4-doc make-doc libmail-box-perl
+The following NEW packages will be installed:
+  autoconf automake autopoint autotools-dev binutils binutils-common
+  binutils-x86-64-linux-gnu build-essential cpp cpp-9 debhelper dh-autoreconf
+  dh-strip-nondeterminism dpkg-dev dwz fakeroot g++ g++-9 gcc gcc-9 gcc-9-base
+  gettext intltool-debian libalgorithm-diff-perl libalgorithm-diff-xs-perl
+  libalgorithm-merge-perl libarchive-cpio-perl libarchive-zip-perl libasan5
+  libatomic1 libbinutils libc-dev-bin libc6-dev libcc1-0 libcroco3 libcrypt-dev
+  libctf-nobfd0 libctf0 libcurl4-gnutls-dev libdebhelper-perl libdpkg-perl
+  libexpat1-dev libfakeroot libfile-fcntllock-perl
+  libfile-stripnondeterminism-perl libgcc-9-dev libgomp1 libisl22 libitm1 liblsan0
+  libltdl-dev libmail-sendmail-perl libmpc3 libquadmath0 libssl-dev
+  libstdc++-9-dev libsub-override-perl libsys-hostname-long-perl libtool libtsan0
+  libubsan1 linux-libc-dev m4 make manpages-dev po-debconf zlib1g-dev
+0 upgraded, 67 newly installed, 0 to remove and 0 not upgraded.
+Need to get 51.9 MB of archives.
+After this operation, 228 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]0% [Connecting to archive.ubuntu.com]                                     Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 m4 amd64 1.4.18-4 [199 kB]
+                                     0% [1 m4 13.6 kB/199 kB 7%]0% [1 m4 41.4 kB/199 kB 21%]                            0% [1 m4 161 kB/199 kB 81%]                           1% [Working]            Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 autoconf all 2.69-11.1 [321 kB]
+1% [2 autoconf 2493 B/321 kB 1%]                                1% [Waiting for headers]                        Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 autotools-dev all 20180224.1 [39.6 kB]
+1% [3 autotools-dev 1364 B/39.6 kB 3%]                                      2% [Waiting for headers]                        Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 automake all 1:1.16.1-4ubuntu6 [522 kB]
+2% [4 automake 7201 B/522 kB 1%]                                3% [Waiting for headers]                        Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 autopoint all 0.19.8.1-10build1 [412 kB]
+3% [5 autopoint 4282 B/412 kB 1%]                                 4% [Waiting for headers]                        Ign:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-common amd64 2.34-6ubuntu1.5
+                        Ign:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libbinutils amd64 2.34-6ubuntu1.5
+4% [Waiting for headers]                        Ign:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1.5
+                        Ign:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libctf0 amd64 2.34-6ubuntu1.5
+                        Ign:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1.5
+                        Ign:11 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 binutils amd64 2.34-6ubuntu1.5
+4% [Connecting to archive.ubuntu.com (185.125.190.39)]                                                      Get:12 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libc-dev-bin amd64 2.31-0ubuntu9.9 [71.8 kB]
+4% [Connecting to security.ubuntu.com (91.189.91.39)] [12 libc-dev-bin 2494 B/71.8                                                                                    4% [Waiting for headers] [12 libc-dev-bin 60.8 kB/71.8 kB 85%]                                                              4% [Waiting for headers]                        Err:6 http://security.ubuntu.com/ubuntu focal-updates/main amd64 binutils-common amd64 2.34-6ubuntu1.5
+  404  Not Found [IP: 185.125.190.39 80]
+4% [Waiting for headers]                        Ign:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-149.166
+4% [Waiting for headers] [Waiting for headers]                                              Get:14 http://archive.ubuntu.com/ubuntu focal/main amd64 libcrypt-dev amd64 1:4.4.10-10ubuntu4 [104 kB]
+4% [Waiting for headers] [14 libcrypt-dev 2493 B/104 kB 2%]                                                           Err:7 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libbinutils amd64 2.34-6ubuntu1.5
+  404  Not Found [IP: 185.125.190.39 80]
+4% [Waiting for headers] [14 libcrypt-dev 58.0 kB/104 kB 56%]                                                             Err:8 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1.5
+  404  Not Found [IP: 185.125.190.39 80]
+                                                             Err:9 http://security.ubuntu.com/ubuntu focal-updates/main amd64 libctf0 amd64 2.34-6ubuntu1.5
+  404  Not Found [IP: 185.125.190.39 80]
+                                                             Err:10 http://security.ubuntu.com/ubuntu focal-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1.5
+  404  Not Found [IP: 185.125.190.39 80]
+4% [Waiting for headers] [14 libcrypt-dev 58.0 kB/104 kB 56%]                                                             Err:11 http://security.ubuntu.com/ubuntu focal-updates/main amd64 binutils amd64 2.34-6ubuntu1.5
+  404  Not Found [IP: 185.125.190.39 80]
+4% [Waiting for headers] [14 libcrypt-dev 58.0 kB/104 kB 56%]                                                             5% [Waiting for headers] [Waiting for headers]                                              Get:15 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libc6-dev amd64 2.31-0ubuntu9.9 [2519 kB]
+5% [Waiting for headers] [15 libc6-dev 2204 B/2519 kB 0%]                                                         Err:13 http://security.ubuntu.com/ubuntu focal-updates/main amd64 linux-libc-dev amd64 5.4.0-149.166
+  404  Not Found [IP: 185.125.190.39 80]
+                                                         5% [15 libc6-dev 82.6 kB/2519 kB 3%]6% [15 libc6-dev 771 kB/2519 kB 31%]7% [15 libc6-dev 1590 kB/2519 kB 63%]                             535 kB/s 1min 30s8% [15 libc6-dev 1997 kB/2519 kB 79%]                             535 kB/s 1min 30s8% [15 libc6-dev 2167 kB/2519 kB 86%]                             535 kB/s 1min 29s                                                                                   Get:16 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9-base amd64 9.4.0-1ubuntu1~20.04.1 [19.4 kB]
+9% [16 gcc-9-base 13.4 kB/19.4 kB 69%]                            535 kB/s 1min 29s9% [Waiting for headers]                                          535 kB/s 1min 29s                                                                                   Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 libisl22 amd64 0.22.1-1 [592 kB]
+9% [17 libisl22 36.5 kB/592 kB 6%]                                535 kB/s 1min 29s10% [17 libisl22 299 kB/592 kB 50%]                               535 kB/s 1min 28s10% [Waiting for headers]                                         535 kB/s 1min 28s                                                                                   Get:18 http://archive.ubuntu.com/ubuntu focal/main amd64 libmpc3 amd64 1.1.0-1 [40.8 kB]
+10% [18 libmpc3 16.4 kB/40.8 kB 40%]                              535 kB/s 1min 28s11% [Working]                                                     535 kB/s 1min 27s                                                                                   Get:19 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 cpp-9 amd64 9.4.0-1ubuntu1~20.04.1 [7500 kB]
+11% [19 cpp-9 4096 B/7500 kB 0%]                                  535 kB/s 1min 27s15% [19 cpp-9 2566 kB/7500 kB 34%]                                535 kB/s 1min 23s16% [19 cpp-9 3305 kB/7500 kB 44%]                                535 kB/s 1min 21s17% [19 cpp-9 3943 kB/7500 kB 53%]                                535 kB/s 1min 20s18% [19 cpp-9 4704 kB/7500 kB 63%]                                535 kB/s 1min 19s19% [19 cpp-9 5633 kB/7500 kB 75%]                                535 kB/s 1min 17s20% [19 cpp-9 6265 kB/7500 kB 84%]                                535 kB/s 1min 16s21% [19 cpp-9 6662 kB/7500 kB 89%]                                535 kB/s 1min 15s                                                                                   Get:20 http://archive.ubuntu.com/ubuntu focal/main amd64 cpp amd64 4:9.3.0-1ubuntu2 [27.6 kB]
+23% [20 cpp 27.6 kB/27.6 kB 100%]                                     1461 kB/s 27s23% [Working]                                                         1461 kB/s 27s                                                                                   Get:21 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcc1-0 amd64 10.3.0-1ubuntu1~20.04 [48.8 kB]
+23% [21 libcc1-0 0 B/48.8 kB 0%]                                      1461 kB/s 27s23% [Waiting for headers]                                             1461 kB/s 27s                                                                                   Get:22 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgomp1 amd64 10.3.0-1ubuntu1~20.04 [102 kB]
+23% [22 libgomp1 17.7 kB/102 kB 17%]                                  1461 kB/s 27s24% [Working]                                                         1461 kB/s 26s                                                                                   Get:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libitm1 amd64 10.3.0-1ubuntu1~20.04 [26.2 kB]
+24% [23 libitm1 13.6 kB/26.2 kB 52%]                                  1461 kB/s 26s24% [Working]                                                         1461 kB/s 26s                                                                                   Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libatomic1 amd64 10.3.0-1ubuntu1~20.04 [9284 B]
+24% [24 libatomic1 9284 B/9284 B 100%]                                1461 kB/s 26s24% [Waiting for headers]                                             1461 kB/s 26s                                                                                   Get:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libasan5 amd64 9.4.0-1ubuntu1~20.04.1 [2751 kB]
+24% [25 libasan5 12.4 kB/2751 kB 0%]                                  1461 kB/s 26s25% [25 libasan5 133 kB/2751 kB 5%]                                   1461 kB/s 26s25% [25 libasan5 526 kB/2751 kB 19%]                                  1461 kB/s 26s27% [25 libasan5 1391 kB/2751 kB 51%]                                 1461 kB/s 25s28% [25 libasan5 2305 kB/2751 kB 84%]                                 1461 kB/s 25s29% [Waiting for headers]                                             1461 kB/s 25s                                                                                   Get:26 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 liblsan0 amd64 10.3.0-1ubuntu1~20.04 [835 kB]
+29% [26 liblsan0 2764 B/835 kB 0%]                                    1461 kB/s 25s30% [26 liblsan0 550 kB/835 kB 66%]                                   1461 kB/s 24s31% [Waiting for headers]                                             1461 kB/s 24s                                                                                   Get:27 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libtsan0 amd64 10.3.0-1ubuntu1~20.04 [2009 kB]
+31% [27 libtsan0 16.4 kB/2009 kB 1%]                                  1461 kB/s 24s32% [27 libtsan0 844 kB/2009 kB 42%]                                  1461 kB/s 23s34% [Waiting for headers]                                             1461 kB/s 23s                                                                                   Get:28 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libubsan1 amd64 10.3.0-1ubuntu1~20.04 [784 kB]
+34% [28 libubsan1 2776 B/784 kB 0%]                                   1461 kB/s 23s35% [28 libubsan1 636 kB/784 kB 81%]                                  1461 kB/s 22s35% [Waiting for headers]                                             1461 kB/s 22s                                                                                   Get:29 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libquadmath0 amd64 10.3.0-1ubuntu1~20.04 [146 kB]
+35% [29 libquadmath0 3985 B/146 kB 3%]                                1461 kB/s 22s36% [Waiting for headers]                                             1461 kB/s 22s                                                                                   Get:30 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgcc-9-dev amd64 9.4.0-1ubuntu1~20.04.1 [2359 kB]
+36% [30 libgcc-9-dev 23 B/2359 kB 0%]                                 1461 kB/s 22s36% [30 libgcc-9-dev 151 kB/2359 kB 6%]                               1122 kB/s 29s36% [30 libgcc-9-dev 305 kB/2359 kB 13%]                              1122 kB/s 28s37% [30 libgcc-9-dev 955 kB/2359 kB 40%]                              1122 kB/s 28s40% [Waiting for headers]                                             1122 kB/s 27s                                                                                   Get:31 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 gcc-9 amd64 9.4.0-1ubuntu1~20.04.1 [8274 kB]
+40% [31 gcc-9 56.9 kB/8274 kB 1%]                                     1122 kB/s 27s42% [31 gcc-9 1105 kB/8274 kB 13%]                                    1122 kB/s 26s43% [31 gcc-9 2085 kB/8274 kB 25%]                                    1122 kB/s 25s44% [31 gcc-9 2913 kB/8274 kB 35%]                                    1122 kB/s 24s46% [31 gcc-9 3702 kB/8274 kB 45%]                                    1122 kB/s 23s47% [31 gcc-9 4637 kB/8274 kB 56%]                                    1122 kB/s 23s48% [31 gcc-9 5339 kB/8274 kB 65%]                                    1122 kB/s 22s48% [31 gcc-9 5402 kB/8274 kB 65%]                                    1122 kB/s 22s51% [31 gcc-9 7165 kB/8274 kB 87%]                                    1122 kB/s 20s53% [31 gcc-9 8214 kB/8274 kB 99%]                                    1122 kB/s 19s                                                                                   Get:32 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc amd64 4:9.3.0-1ubuntu2 [5208 B]
+53% [32 gcc 0 B/5208 B 0%]                                            1744 kB/s 12s53% [Working]                                                         1744 kB/s 12s                                                                                   Get:33 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libstdc++-9-dev amd64 9.4.0-1ubuntu1~20.04.1 [1722 kB]
+53% [33 libstdc++-9-dev 16.4 kB/1722 kB 1%]                           1744 kB/s 12s55% [33 libstdc++-9-dev 1010 kB/1722 kB 59%]                          1744 kB/s 12s56% [Working]                                                         1744 kB/s 11s56% [Waiting for headers]                                             1744 kB/s 11s                                                                                   Get:34 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 g++-9 amd64 9.4.0-1ubuntu1~20.04.1 [8420 kB]
+56% [34 g++-9 12.3 kB/8420 kB 0%]                                     1744 kB/s 11s56% [34 g++-9 53.8 kB/8420 kB 1%]                                     1744 kB/s 11s57% [34 g++-9 233 kB/8420 kB 3%]                                      1744 kB/s 11s58% [34 g++-9 1032 kB/8420 kB 12%]                                    1744 kB/s 11s59% [34 g++-9 1818 kB/8420 kB 22%]                                    1744 kB/s 10s59% [34 g++-9 1991 kB/8420 kB 24%]                                    1744 kB/s 10s60% [34 g++-9 2509 kB/8420 kB 30%]                                    1744 kB/s 10s62% [34 g++-9 4019 kB/8420 kB 48%]                                     1744 kB/s 9s63% [34 g++-9 4198 kB/8420 kB 50%]                                     1744 kB/s 9s63% [34 g++-9 4223 kB/8420 kB 50%]                                     971 kB/s 16s65% [34 g++-9 5658 kB/8420 kB 67%]                                     971 kB/s 15s68% [34 g++-9 7628 kB/8420 kB 91%]                                     971 kB/s 13s69% [Working]                                                          971 kB/s 12s                                                                                   Get:35 http://archive.ubuntu.com/ubuntu focal/main amd64 g++ amd64 4:9.3.0-1ubuntu2 [1604 B]
+69% [35 g++ 1604 B/1604 B 100%]                                        971 kB/s 12s70% [Waiting for headers]                                              971 kB/s 12s                                                                                   Get:36 http://archive.ubuntu.com/ubuntu focal/main amd64 make amd64 4.2.1-1.2 [162 kB]
+70% [36 make 4096 B/162 kB 3%]                                         971 kB/s 12s70% [Waiting for headers]                                              971 kB/s 12s                                                                                   Get:37 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libdpkg-perl all 1.19.7ubuntu3.2 [231 kB]
+70% [37 libdpkg-perl 4096 B/231 kB 2%]                                 971 kB/s 12s71% [Waiting for headers]                                              971 kB/s 12s                                                                                   Get:38 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 dpkg-dev all 1.19.7ubuntu3.2 [679 kB]
+71% [38 dpkg-dev 2913 B/679 kB 0%]                                     971 kB/s 11s72% [38 dpkg-dev 515 kB/679 kB 76%]                                    971 kB/s 11s72% [38 dpkg-dev 669 kB/679 kB 99%]                                    971 kB/s 11s72% [Waiting for headers]                                              971 kB/s 11s                                                                                   Get:39 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 build-essential amd64 12.8ubuntu1.1 [4664 B]
+72% [39 build-essential 4664 B/4664 B 100%]                            971 kB/s 11s73% [Waiting for headers]                                              971 kB/s 11s                                                                                   Get:40 http://archive.ubuntu.com/ubuntu focal/main amd64 libtool all 2.4.6-14 [161 kB]
+73% [40 libtool 4096 B/161 kB 3%]                                      971 kB/s 11s73% [Waiting for headers]                                              971 kB/s 11s                                                                                   Get:41 http://archive.ubuntu.com/ubuntu focal/main amd64 dh-autoreconf all 19 [16.1 kB]
+73% [41 dh-autoreconf 15.4 kB/16.1 kB 96%]                             971 kB/s 11s74% [Working]                                                          971 kB/s 11s                                                                                   Get:42 http://archive.ubuntu.com/ubuntu focal/main amd64 libdebhelper-perl all 12.10ubuntu1 [62.1 kB]
+74% [42 libdebhelper-perl 410 B/62.1 kB 1%]                            971 kB/s 11s74% [Waiting for headers]                                              971 kB/s 11s                                                                                   Get:43 http://archive.ubuntu.com/ubuntu focal/main amd64 libarchive-zip-perl all 1.67-2 [90.5 kB]
+74% [43 libarchive-zip-perl 0 B/90.5 kB 0%]                            971 kB/s 11s74% [Waiting for headers]                                              971 kB/s 10s                                                                                   Get:44 http://archive.ubuntu.com/ubuntu focal/main amd64 libsub-override-perl all 0.09-2 [9532 B]
+74% [44 libsub-override-perl 0 B/9532 B 0%]                            971 kB/s 10s75% [Working]                                                          971 kB/s 10s75% [Waiting for headers]                                              971 kB/s 10s                                                                                   Get:45 http://archive.ubuntu.com/ubuntu focal/main amd64 libfile-stripnondeterminism-perl all 1.7.0-1 [15.9 kB]
+75% [45 libfile-stripnondeterminism-perl 1107 B/15.9 kB 7%]            971 kB/s 10s75% [Working]                                                          971 kB/s 10s                                                                                   Get:46 http://archive.ubuntu.com/ubuntu focal/main amd64 dh-strip-nondeterminism all 1.7.0-1 [5228 B]
+75% [46 dh-strip-nondeterminism 5228 B/5228 B 100%]                    971 kB/s 10s75% [Working]                                                          971 kB/s 10s                                                                                   Get:47 http://archive.ubuntu.com/ubuntu focal/main amd64 dwz amd64 0.13-5 [151 kB]
+75% [47 dwz 4096 B/151 kB 3%]                                          971 kB/s 10s75% [47 dwz 89.9 kB/151 kB 60%]                                        971 kB/s 10s76% [Waiting for headers]                                              971 kB/s 10s                                                                                   Get:48 http://archive.ubuntu.com/ubuntu focal/main amd64 libcroco3 amd64 0.6.13-1 [82.5 kB]
+76% [48 libcroco3 1139 B/82.5 kB 1%]                                   971 kB/s 10s76% [Waiting for headers]                                              971 kB/s 10s                                                                                   Get:49 http://archive.ubuntu.com/ubuntu focal/main amd64 gettext amd64 0.19.8.1-10build1 [895 kB]
+76% [49 gettext 252 B/895 kB 0%]                                       971 kB/s 10s77% [49 gettext 696 kB/895 kB 78%]                                      971 kB/s 9s78% [Working]                                                           971 kB/s 9s                                                                                   Get:50 http://archive.ubuntu.com/ubuntu focal/main amd64 intltool-debian all 0.35.0+20060710.5 [24.9 kB]
+78% [50 intltool-debian 13.7 kB/24.9 kB 55%]                            971 kB/s 9s78% [Waiting for headers]                                               971 kB/s 9s                                                                                   Get:51 http://archive.ubuntu.com/ubuntu focal/main amd64 po-debconf all 1.0.21 [233 kB]
+78% [51 po-debconf 1033 B/233 kB 0%]                                    971 kB/s 9s79% [Waiting for headers]                                               971 kB/s 9s                                                                                   Get:52 http://archive.ubuntu.com/ubuntu focal/main amd64 debhelper all 12.10ubuntu1 [877 kB]
+79% [52 debhelper 17.2 kB/877 kB 2%]                                    971 kB/s 9s80% [52 debhelper 865 kB/877 kB 99%]                                   1261 kB/s 6s81% [Waiting for headers]                                              1261 kB/s 6s                                                                                   Get:53 http://archive.ubuntu.com/ubuntu focal/main amd64 libfakeroot amd64 1.24-1 [25.7 kB]
+81% [53 libfakeroot 3372 B/25.7 kB 13%]                                1261 kB/s 6s81% [Working]                                                          1261 kB/s 6s                                                                                   Get:54 http://archive.ubuntu.com/ubuntu focal/main amd64 fakeroot amd64 1.24-1 [62.6 kB]
+81% [54 fakeroot 1419 B/62.6 kB 2%]                                    1261 kB/s 6s81% [Working]                                                          1261 kB/s 6s                                                                                   Get:55 http://archive.ubuntu.com/ubuntu focal/main amd64 libalgorithm-diff-perl all 1.19.03-2 [46.6 kB]
+81% [55 libalgorithm-diff-perl 2736 B/46.6 kB 6%]                      1261 kB/s 6s82% [Connecting to archive.ubuntu.com (185.125.190.39)]                1261 kB/s 6s                                                                                   Get:56 http://archive.ubuntu.com/ubuntu focal/main amd64 libalgorithm-diff-xs-perl amd64 0.04-6 [11.3 kB]
+82% [56 libalgorithm-diff-xs-perl 11.3 kB/11.3 kB 100%]                1261 kB/s 6s82% [Working]                                                          1261 kB/s 6s                                                                                   Get:57 http://archive.ubuntu.com/ubuntu focal/main amd64 libalgorithm-merge-perl all 0.08-3 [12.0 kB]
+82% [57 libalgorithm-merge-perl 2495 B/12.0 kB 21%]                    1261 kB/s 6s82% [Waiting for headers]                                              1261 kB/s 6s                                                                                   Get:58 http://archive.ubuntu.com/ubuntu focal/main amd64 libarchive-cpio-perl all 0.10-1 [9644 B]
+82% [58 libarchive-cpio-perl 1327 B/9644 B 14%]                        1261 kB/s 6s83% [Waiting for headers]                                              1261 kB/s 6s                                                                                   Get:59 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcurl4-gnutls-dev amd64 7.68.0-1ubuntu2.18 [320 kB]
+83% [59 libcurl4-gnutls-dev 1116 B/320 kB 0%]                          1261 kB/s 6s83% [59 libcurl4-gnutls-dev 104 kB/320 kB 32%]                         1261 kB/s 6s83% [Waiting for headers]                                              1261 kB/s 6s                                                                                   Get:60 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libexpat1-dev amd64 2.2.9-1ubuntu0.6 [116 kB]
+83% [60 libexpat1-dev 153 B/116 kB 0%]                                 1261 kB/s 6s84% [Waiting for headers]                                              1261 kB/s 6s                                                                                   Get:61 http://archive.ubuntu.com/ubuntu focal/main amd64 libfile-fcntllock-perl amd64 0.22-3build4 [33.1 kB]
+84% [61 libfile-fcntllock-perl 763 B/33.1 kB 2%]                       1261 kB/s 6s84% [Waiting for headers]                                              1261 kB/s 6s                                                                                   Get:62 http://archive.ubuntu.com/ubuntu focal/main amd64 libltdl-dev amd64 2.4.6-14 [162 kB]
+84% [62 libltdl-dev 1388 B/162 kB 1%]                                  1261 kB/s 6s85% [Waiting for headers]                                              1261 kB/s 5s                                                                                   Get:63 http://archive.ubuntu.com/ubuntu focal/main amd64 libsys-hostname-long-perl all 1.5-1 [11.7 kB]
+85% [63 libsys-hostname-long-perl 4096 B/11.7 kB 35%]                  1261 kB/s 5s85% [Waiting for headers]                                              1261 kB/s 5s                                                                                   Get:64 http://archive.ubuntu.com/ubuntu focal/main amd64 libmail-sendmail-perl all 0.80-1 [22.6 kB]
+85% [64 libmail-sendmail-perl 16.4 kB/22.6 kB 72%]                     1261 kB/s 5s85% [Waiting for headers]                                              1261 kB/s 5s                                                                                   Get:65 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libssl-dev amd64 1.1.1f-1ubuntu2.19 [1584 kB]
+85% [65 libssl-dev 12.3 kB/1584 kB 1%]                                 1261 kB/s 5s87% [65 libssl-dev 693 kB/1584 kB 44%]                                 1261 kB/s 5s88% [65 libssl-dev 1427 kB/1584 kB 90%]                                1261 kB/s 4s88% [Waiting for headers]                                              1261 kB/s 4s                                                                                   Get:66 http://archive.ubuntu.com/ubuntu focal/main amd64 manpages-dev all 5.05-1 [2266 kB]
+88% [66 manpages-dev 2776 B/2266 kB 0%]                                1261 kB/s 4s89% [66 manpages-dev 630 kB/2266 kB 28%]                               1261 kB/s 4s90% [66 manpages-dev 1352 kB/2266 kB 60%]                              1261 kB/s 3s91% [66 manpages-dev 1974 kB/2266 kB 87%]                              1261 kB/s 3s92% [Connecting to archive.ubuntu.com (185.125.190.39)]                1261 kB/s 2s                                                                                   Get:67 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu1.5 [155 kB]
+92% [67 zlib1g-dev 13.6 kB/155 kB 9%]                                  1261 kB/s 2s92% [67 zlib1g-dev 41.4 kB/155 kB 27%]                                 1261 kB/s 2s92% [67 zlib1g-dev 147 kB/155 kB 94%]                                   767 kB/s 4s93% [Working]                                                           767 kB/s 4s                                                                                   Fetched 48.4 MB in 43s (1121 kB/s)
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/b/binutils/binutils-common_2.34-6ubuntu1.5_amd64.deb  404  Not Found [IP: 185.125.190.39 80]
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/b/binutils/libbinutils_2.34-6ubuntu1.5_amd64.deb  404  Not Found [IP: 185.125.190.39 80]
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/b/binutils/libctf-nobfd0_2.34-6ubuntu1.5_amd64.deb  404  Not Found [IP: 185.125.190.39 80]
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/b/binutils/libctf0_2.34-6ubuntu1.5_amd64.deb  404  Not Found [IP: 185.125.190.39 80]
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/b/binutils/binutils-x86-64-linux-gnu_2.34-6ubuntu1.5_amd64.deb  404  Not Found [IP: 185.125.190.39 80]
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/b/binutils/binutils_2.34-6ubuntu1.5_amd64.deb  404  Not Found [IP: 185.125.190.39 80]
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/l/linux/linux-libc-dev_5.4.0-149.166_amd64.deb  404  Not Found [IP: 185.125.190.39 80]
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ sudo apt-get install asciidoc xmlto docbook2x
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package asciidoc
+E: Unable to locate package xmlto
+E: Unable to locate package docbook2x
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ sudo apt-get install instll-info
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package instll-info
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ sudo apt update
+[33m0% [Working][0m[33m0% [Connecting to archive.ubuntu.com] [Connecting to security.ubuntu.com][0m[33m                                                                         0% [Waiting for headers] [Waiting for headers][0m                                              Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+[33m                                              0% [Waiting for headers][0m                        Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+[33m0% [Waiting for headers] [2 InRelease 13.6 kB/114 kB 12%][0m[33m0% [Waiting for headers] [2 InRelease 13.6 kB/114 kB 12%][0m                                                         Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+[33m0% [3 InRelease 15.0 kB/114 kB 13%] [2 InRelease 24.7 kB/114 kB 22%][0m[33m0% [3 InRelease 35.8 kB/114 kB 31%] [2 InRelease 64.9 kB/114 kB 57%][0m[33m                                                                    0% [3 InRelease 64.9 kB/114 kB 57%][0m[33m0% [3 InRelease 70.5 kB/114 kB 62%][0m[33m                                   0% [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Get:4 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [2302 kB]
+[33m0% [Waiting for headers] [4 Packages 3953 B/2302 kB 0%][0m                                                       Get:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+[33m0% [5 InRelease 2483 B/108 kB 2%] [4 Packages 103 kB/2302 kB 4%][0m[33m                                                                0% [4 Packages 186 kB/2302 kB 8%][0m[33m13% [Waiting for headers] [4 Packages 250 kB/2302 kB 11%][0m                                                         Get:6 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [8628 kB]
+[33m13% [6 Packages 2565 B/8628 kB 0%] [4 Packages 452 kB/2302 kB 20%][0m[33m16% [6 Packages 205 kB/8628 kB 2%] [4 Packages 1131 kB/2302 kB 49%][0m[33m18% [6 Packages 350 kB/8628 kB 4%] [4 Packages 1914 kB/2302 kB 83%][0m[33m                                                                   20% [6 Packages 458 kB/8628 kB 5%][0m[33m20% [4 Packages store 0 B] [6 Packages 459 kB/8628 kB 5%][0m[33m21% [6 Packages 824 kB/8628 kB 10%] [Waiting for headers][0m                                                         Get:7 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [366 kB]
+[33m21% [6 Packages 863 kB/8628 kB 10%] [7 Translation-en 2567 B/366 kB 1%][0m[33m                                                                       23% [6 Packages 955 kB/8628 kB 11%] [Waiting for headers][0m                                                         Get:8 http://security.ubuntu.com/ubuntu focal-security/main amd64 c-n-f Metadata [13.0 kB]
+[33m23% [6 Packages 955 kB/8628 kB 11%] [8 Commands-amd64 1340 B/13.0 kB 10%][0m[33m23% [7 Translation-en store 0 B] [6 Packages 955 kB/8628 kB 11%] [8 Commands-amd64 [0m[33m23% [7 Translation-en store 0 B] [6 Packages 960 kB/8628 kB 11%] [Waiting for heade[0m                                                                                   Get:9 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [1973 kB]
+[33m23% [7 Translation-en store 0 B] [6 Packages 960 kB/8628 kB 11%] [9 Packages 1993 B[0m[33m                                                                                   23% [6 Packages 998 kB/8628 kB 12%] [9 Packages 105 kB/1973 kB 5%][0m[33m23% [8 Commands-amd64 store 0 B] [6 Packages 998 kB/8628 kB 12%] [9 Packages 105 kB[0m[33m                                                                                   24% [6 Packages 999 kB/8628 kB 12%] [9 Packages 110 kB/1973 kB 6%][0m[33m25% [6 Packages 1132 kB/8628 kB 13%] [9 Packages 430 kB/1973 kB 22%]   719 kB/s 32s[0m[33m25% [6 Packages 1132 kB/8628 kB 13%] [9 Packages 430 kB/1973 kB 22%]   719 kB/s 32s[0m[33m26% [6 Packages 1421 kB/8628 kB 16%] [9 Packages 536 kB/1973 kB 27%]   719 kB/s 31s[0m                                                                                   Get:10 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [276 kB]
+[33m                                                                                   32% [6 Packages 2003 kB/8628 kB 23%] [10 Translation-en 65.5 kB/276 kB 24%][0m[33m32% [9 Packages store 0 B] [6 Packages 2003 kB/8628 kB 23%] [10 Translation-en 81.2[0m                                                                                   Get:11 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 c-n-f Metadata [552 B]
+                                                                                   Get:12 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [854 kB]
+[33m33% [9 Packages store 0 B] [6 Packages 2087 kB/8628 kB 24%] [12 Packages 61.4 kB/85[0m                                                                                   Get:13 http://security.ubuntu.com/ubuntu focal-security/universe Translation-en [176 kB]
+[33m36% [9 Packages store 0 B] [6 Packages 2140 kB/8628 kB 25%] [13 Translation-en 527 [0m[33m                                                                                   36% [6 Packages 2222 kB/8628 kB 26%] [13 Translation-en 155 kB/176 kB 88%][0m[33m36% [10 Translation-en store 0 B] [6 Packages 2222 kB/8628 kB 26%] [13 Translation-[0m[33m37% [10 Translation-en store 0 B] [6 Packages 2225 kB/8628 kB 26%] [Waiting for hea[0m                                                                                   Get:14 http://security.ubuntu.com/ubuntu focal-security/universe amd64 c-n-f Metadata [18.6 kB]
+[33m37% [10 Translation-en store 0 B] [6 Packages 2225 kB/8628 kB 26%] [14 Commands-amd[0m[33m37% [10 Translation-en store 0 B] [6 Packages 2236 kB/8628 kB 26%]     719 kB/s 26s[0m                                                                                   Get:15 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [29.3 kB]
+[33m37% [10 Translation-en store 0 B] [6 Packages 2236 kB/8628 kB 26%] [15 Packages 16.[0m[33m37% [10 Translation-en store 0 B] [6 Packages 2237 kB/8628 kB 26%] [Connecting to s[0m[33m37% [6 Packages 2307 kB/8628 kB 27%] [Connecting to security.ubuntu.com (91.189.91.[0m[33m37% [11 Commands-amd64 store 0 B] [6 Packages 2307 kB/8628 kB 27%] [Connecting to s[0m[33m37% [6 Packages 2307 kB/8628 kB 27%] [Connecting to security.ubuntu.com (91.189.91.[0m[33m37% [12 Packages store 0 B] [6 Packages 2307 kB/8628 kB 27%] [Connecting to securit[0m[33m38% [6 Packages 2551 kB/8628 kB 30%] [Connecting to security.ubuntu.com (91.189.91.[0m[33m38% [13 Translation-en store 0 B] [6 Packages 2551 kB/8628 kB 30%] [Connecting to s[0m[33m39% [6 Packages 2622 kB/8628 kB 30%] [Connecting to security.ubuntu.com (91.189.91.[0m[33m39% [14 Commands-amd64 store 0 B] [6 Packages 2622 kB/8628 kB 30%] [Connecting to s[0m[33m39% [6 Packages 2622 kB/8628 kB 30%] [Connecting to security.ubuntu.com (91.189.91.[0m[33m39% [15 Packages store 0 B] [6 Packages 2622 kB/8628 kB 30%] [Connecting to securit[0m[33m39% [6 Packages 2647 kB/8628 kB 31%] [Connecting to security.ubuntu.com (91.189.91.[0m[33m41% [6 Packages 3284 kB/8628 kB 38%] [Waiting for headers]             719 kB/s 25s[0m                                                                                   Get:16 http://security.ubuntu.com/ubuntu focal-security/multiverse Translation-en [6120 B]
+[33m                                                                                   42% [6 Packages 3602 kB/8628 kB 42%] [16 Translation-en 6120 B/6120 B 100%][0m[33m42% [6 Packages 3602 kB/8628 kB 42%] [Waiting for headers]             719 kB/s 24s[0m[33m42% [16 Translation-en store 0 B] [6 Packages 3602 kB/8628 kB 42%] [Waiting for hea[0m[33m42% [6 Packages 3625 kB/8628 kB 42%] [Waiting for headers]             719 kB/s 24s[0m                                                                                   Get:17 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [620 B]
+[33m                                                                                   46% [6 Packages 4731 kB/8628 kB 55%] [17 Commands-amd64 620 B/620 B 100%][0m[33m46% [6 Packages 4731 kB/8628 kB 55%]                                   719 kB/s 23s[0m[33m46% [17 Commands-amd64 store 0 B] [6 Packages 4731 kB/8628 kB 55%]     719 kB/s 23s[0m[33m46% [6 Packages 4731 kB/8628 kB 55%]                                   719 kB/s 23s[0m[33m48% [6 Packages 5498 kB/8628 kB 64%]                                   719 kB/s 22s[0m[33m48% [6 Packages 5498 kB/8628 kB 64%]                                   719 kB/s 22s[0m[33m51% [6 Packages 6368 kB/8628 kB 74%]                                   719 kB/s 20s[0m                                                                                   Get:18 http://archive.ubuntu.com/ubuntu focal/universe Translation-en [5124 kB]
+[33m57% [18 Translation-en 15.2 kB/5124 kB 0%]                             719 kB/s 17s[0m[33m57% [6 Packages store 0 B] [18 Translation-en 15.2 kB/5124 kB 0%]      719 kB/s 17s[0m[33m60% [6 Packages store 0 B] [18 Translation-en 839 kB/5124 kB 16%]      719 kB/s 16s[0m[33m63% [18 Translation-en 2070 kB/5124 kB 40%]                            719 kB/s 14s[0m[33m64% [18 Translation-en 2212 kB/5124 kB 43%]                            2036 kB/s 5s[0m[33m65% [18 Translation-en 2649 kB/5124 kB 52%]                            2036 kB/s 4s[0m[33m69% [18 Translation-en 3968 kB/5124 kB 77%]                            2036 kB/s 4s[0m[33m69% [18 Translation-en 3968 kB/5124 kB 77%]                            2036 kB/s 4s[0m[33m69% [18 Translation-en 4097 kB/5124 kB 80%]                            2036 kB/s 4s[0m[33m69% [18 Translation-en 4097 kB/5124 kB 80%]                            2036 kB/s 4s[0m[33m72% [Waiting for headers]                                              2036 kB/s 3s[0m                                                                                   Get:19 http://archive.ubuntu.com/ubuntu focal/universe amd64 c-n-f Metadata [265 kB]
+[33m72% [19 Commands-amd64 49.8 kB/265 kB 19%]                             2036 kB/s 3s[0m[33m                                                                                   72% [18 Translation-en store 0 B] [19 Commands-amd64 65.5 kB/265 kB 25%][0m[33m73% [18 Translation-en store 0 B] [Waiting for headers]                2036 kB/s 3s[0m                                                                                   Get:20 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [144 kB]
+[33m73% [18 Translation-en store 0 B] [20 Packages 4164 B/144 kB 3%]       2036 kB/s 3s[0m[33m73% [18 Translation-en store 0 B] [Waiting for headers]                2036 kB/s 3s[0m                                                                                   Get:21 http://archive.ubuntu.com/ubuntu focal/multiverse Translation-en [104 kB]
+[33m                                                                                   74% [18 Translation-en store 0 B] [21 Translation-en 65.5 kB/104 kB 63%][0m[33m74% [18 Translation-en store 0 B] [Waiting for headers]                2036 kB/s 3s[0m                                                                                   Get:22 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 c-n-f Metadata [9136 B]
+[33m                                                                                   74% [18 Translation-en store 0 B] [22 Commands-amd64 9136 B/9136 B 100%][0m[33m74% [18 Translation-en store 0 B]                                      2036 kB/s 3s[0m                                                                                   Get:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2686 kB]
+[33m74% [18 Translation-en store 0 B] [23 Packages 4096 B/2686 kB 0%]      2036 kB/s 3s[0m[33m78% [23 Packages 1563 kB/2686 kB 58%]                                  2036 kB/s 2s[0m[33m78% [19 Commands-amd64 store 0 B] [23 Packages 1563 kB/2686 kB 58%]    2036 kB/s 2s[0m[33m79% [23 Packages 1602 kB/2686 kB 60%]                                  2036 kB/s 2s[0m[33m79% [20 Packages store 0 B] [23 Packages 1602 kB/2686 kB 60%]          2036 kB/s 2s[0m[33m79% [23 Packages 1627 kB/2686 kB 61%]                                  2036 kB/s 2s[0m[33m79% [21 Translation-en store 0 B] [23 Packages 1627 kB/2686 kB 61%]    2036 kB/s 2s[0m[33m79% [23 Packages 1636 kB/2686 kB 61%]                                  2036 kB/s 2s[0m[33m79% [22 Commands-amd64 store 0 B] [23 Packages 1636 kB/2686 kB 61%]    2036 kB/s 2s[0m[33m80% [23 Packages 1636 kB/2686 kB 61%]                                  2036 kB/s 2s[0m[33m83% [Waiting for headers]                                              2036 kB/s 2s[0m                                                                                   Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main Translation-en [448 kB]
+[33m83% [24 Translation-en 9432 B/448 kB 2%]                               2036 kB/s 2s[0m[33m83% [23 Packages store 0 B] [24 Translation-en 9432 B/448 kB 2%]       2036 kB/s 2s[0m[33m                                                                                   84% [23 Packages store 0 B] [Connecting to archive.ubuntu.com (91.189.91.39)][0m[33m84% [Connecting to archive.ubuntu.com (91.189.91.39)]                  2036 kB/s 1s[0m[33m84% [24 Translation-en store 0 B] [Connecting to archive.ubuntu.com (91.189.91.39)][0m[33m84% [Connecting to archive.ubuntu.com (91.189.91.39)]                  2036 kB/s 1s[0m[33m84% [Waiting for headers]                                              2036 kB/s 1s[0m                                                                                   Get:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [16.9 kB]
+[33m84% [25 Commands-amd64 13.7 kB/16.9 kB 81%]                            2036 kB/s 1s[0m[33m84% [Working]                                                          2036 kB/s 1s[0m[33m84% [25 Commands-amd64 store 0 B] [Waiting for headers]                2036 kB/s 1s[0m[33m85% [Waiting for headers]                                              2036 kB/s 1s[0m                                                                                   Get:26 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [2088 kB]
+[33m85% [26 Packages 12.3 kB/2088 kB 1%]                                   2036 kB/s 1s[0m[33m85% [26 Packages 62.2 kB/2088 kB 3%]                                   2036 kB/s 1s[0m[33m85% [26 Packages 158 kB/2088 kB 8%]                                    1079 kB/s 3s[0m[33m86% [26 Packages 393 kB/2088 kB 19%]                                   1079 kB/s 3s[0m[33m88% [26 Packages 1009 kB/2088 kB 48%]                                  1079 kB/s 2s[0m[33m91% [Waiting for headers]                                              1079 kB/s 1s[0m                                                                                   Get:27 http://archive.ubuntu.com/ubuntu focal-updates/restricted Translation-en [292 kB]
+[33m91% [27 Translation-en 1424 B/292 kB 0%]                               1079 kB/s 1s[0m[33m91% [26 Packages store 0 B] [27 Translation-en 1424 B/292 kB 0%]       1079 kB/s 1s[0m[33m92% [26 Packages store 0 B] [Waiting for headers]                      1079 kB/s 1s[0m                                                                                   Get:28 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 c-n-f Metadata [548 B]
+[33m92% [26 Packages store 0 B] [Waiting for headers]                      1079 kB/s 1s[0m                                                                                   Get:29 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1082 kB]
+[33m92% [26 Packages store 0 B] [29 Packages 1177 B/1082 kB 0%]            1079 kB/s 1s[0m[33m93% [29 Packages 304 kB/1082 kB 28%]                                   1079 kB/s 1s[0m[33m93% [27 Translation-en store 0 B] [29 Packages 304 kB/1082 kB 28%]     1079 kB/s 1s[0m[33m93% [29 Packages 304 kB/1082 kB 28%]                                   1079 kB/s 1s[0m[33m93% [28 Commands-amd64 store 0 B] [29 Packages 304 kB/1082 kB 28%]     1079 kB/s 1s[0m[33m93% [29 Packages 304 kB/1082 kB 28%]                                   1079 kB/s 1s[0m[33m95% [Waiting for headers]                                              1079 kB/s 0s[0m                                                                                   Get:30 http://archive.ubuntu.com/ubuntu focal-updates/universe Translation-en [258 kB]
+[33m95% [30 Translation-en 2776 B/258 kB 1%]                               1079 kB/s 0s[0m[33m95% [29 Packages store 0 B] [30 Translation-en 2776 B/258 kB 1%]       1079 kB/s 0s[0m[33m96% [29 Packages store 0 B] [Waiting for headers]                      1079 kB/s 0s[0m                                                                                   Get:31 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [25.2 kB]
+[33m96% [29 Packages store 0 B] [31 Commands-amd64 1749 B/25.2 kB 7%]      1079 kB/s 0s[0m[33m96% [29 Packages store 0 B] [Waiting for headers]                      1079 kB/s 0s[0m                                                                                   Get:32 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [31.6 kB]
+[33m96% [29 Packages store 0 B] [32 Packages 8192 B/31.6 kB 26%]           1079 kB/s 0s[0m[33m97% [32 Packages 30.1 kB/31.6 kB 95%]                                  1079 kB/s 0s[0m[33m97% [30 Translation-en store 0 B] [Waiting for headers]                1079 kB/s 0s[0m                                                                                   Get:33 http://archive.ubuntu.com/ubuntu focal-updates/multiverse Translation-en [8032 B]
+[33m                                                                                   97% [30 Translation-en store 0 B] [33 Translation-en 2394 B/8032 B 30%][0m[33m97% [30 Translation-en store 0 B] [Waiting for headers]                1079 kB/s 0s[0m                                                                                   Get:34 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [688 B]
+                                                                                   Get:35 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [45.7 kB]
+[33m97% [30 Translation-en store 0 B] [35 Packages 4348 B/45.7 kB 10%]     1079 kB/s 0s[0m[33m97% [30 Translation-en store 0 B]                                      1079 kB/s 0s[0m[33m97% [Connecting to archive.ubuntu.com (91.189.91.39)]                  1079 kB/s 0s[0m[33m97% [31 Commands-amd64 store 0 B] [Connecting to archive.ubuntu.com (91.189.91.39)][0m[33m97% [Connecting to archive.ubuntu.com (91.189.91.39)]                  1079 kB/s 0s[0m[33m                                                                                   97% [32 Packages store 0 B] [Connecting to archive.ubuntu.com (91.189.91.39)][0m[33m97% [Connecting to archive.ubuntu.com (91.189.91.39)]                  1079 kB/s 0s[0m[33m97% [33 Translation-en store 0 B] [Connecting to archive.ubuntu.com (91.189.91.39)][0m[33m98% [Connecting to archive.ubuntu.com (91.189.91.39)]                  1079 kB/s 0s[0m[33m98% [34 Commands-amd64 store 0 B] [Connecting to archive.ubuntu.com (91.189.91.39)][0m[33m98% [Connecting to archive.ubuntu.com (91.189.91.39)]                  1079 kB/s 0s[0m[33m                                                                                   98% [35 Packages store 0 B] [Connecting to archive.ubuntu.com (91.189.91.39)][0m[33m98% [Connecting to archive.ubuntu.com (91.189.91.39)]                  1079 kB/s 0s[0m[33m98% [Waiting for headers]                                              1079 kB/s 0s[0m                                                                                   Get:36 http://archive.ubuntu.com/ubuntu focal-backports/main Translation-en [16.3 kB]
+[33m98% [36 Translation-en 1181 B/16.3 kB 7%]                              1079 kB/s 0s[0m[33m98% [Working]                                                          1079 kB/s 0s[0m[33m98% [36 Translation-en store 0 B] [Waiting for headers]                1079 kB/s 0s[0m[33m98% [Waiting for headers]                                              1079 kB/s 0s[0m[33m98% [Waiting for headers]                                              1079 kB/s 0s[0m                                                                                   Get:37 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 c-n-f Metadata [1420 B]
+[33m98% [37 Commands-amd64 1420 B/1420 B 100%]                             1079 kB/s 0s[0m                                                                                   Get:38 http://archive.ubuntu.com/ubuntu focal-backports/restricted amd64 c-n-f Metadata [116 B]
+[33m98% [38 Commands-amd64 116 B/116 B 100%]                               1079 kB/s 0s[0m                                                                                   Get:39 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [25.0 kB]
+[33m99% [39 Packages 25.0 kB/25.0 kB 100%]                                 1079 kB/s 0s[0m                                                                                   Get:40 http://archive.ubuntu.com/ubuntu focal-backports/universe Translation-en [16.3 kB]
+[33m                                                                                   99% [37 Commands-amd64 store 0 B] [40 Translation-en 998 B/16.3 kB 6%][0m[33m99% [40 Translation-en 998 B/16.3 kB 6%]                               1079 kB/s 0s[0m[33m                                                                                   99% [38 Commands-amd64 store 0 B] [40 Translation-en 998 B/16.3 kB 6%][0m[33m99% [40 Translation-en 998 B/16.3 kB 6%]                               1079 kB/s 0s[0m[33m99% [39 Packages store 0 B] [40 Translation-en 998 B/16.3 kB 6%]       1079 kB/s 0s[0m[33m99% [40 Translation-en 998 B/16.3 kB 6%]                               1079 kB/s 0s[0m[33m99% [Waiting for headers]                                              1079 kB/s 0s[0m                                                                                   Get:41 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [880 B]
+                                                                                   Get:42 http://archive.ubuntu.com/ubuntu focal-backports/multiverse amd64 c-n-f Metadata [116 B]
+[33m99% [42 Commands-amd64 43 B/116 B 37%]                                 1079 kB/s 0s[0m[33m99% [40 Translation-en store 0 B] [42 Commands-amd64 43 B/116 B 37%]   1079 kB/s 0s[0m[33m100% [42 Commands-amd64 43 B/116 B 37%]                                1079 kB/s 0s[0m[33m100% [41 Commands-amd64 store 0 B] [42 Commands-amd64 43 B/116 B 37%]  1079 kB/s 0s[0m[33m100% [42 Commands-amd64 43 B/116 B 37%]                                1079 kB/s 0s[0m[33m100% [Working]                                                         1079 kB/s 0s[0m[33m100% [42 Commands-amd64 store 0 B]                                     1079 kB/s 0s[0m[33m100% [Working]                                                         1079 kB/s 0s[0m                                                                                   Fetched 27.7 MB in 23s (1217 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 4%Reading package lists... 4%Reading package lists... 4%Reading package lists... 4%Reading package lists... 4%Reading package lists... 4%Reading package lists... 32%Reading package lists... 32%Reading package lists... 46%Reading package lists... 46%Reading package lists... 46%Reading package lists... 46%Reading package lists... 47%Reading package lists... 47%Reading package lists... 55%Reading package lists... 55%Reading package lists... 60%Reading package lists... 60%Reading package lists... 67%Reading package lists... 67%Reading package lists... 70%Reading package lists... 70%Reading package lists... 73%Reading package lists... 73%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 74%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 75%Reading package lists... 81%Reading package lists... 81%Reading package lists... 86%Reading package lists... 86%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+58 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ sudo apt [K-get install install-info
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+install-info is already the newest version (6.7.0.dfsg.2-5).
+install-info set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 58 not upgraded.
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ git config --list --show --[K[K[K-origin
+[?1h=[K[?1l>]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ git --global user.name "Rishu"
+unknown option: --global
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ git config --global user.name
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ git config --global user.name "Rishu"
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ git config --global user.email rishu.singh@tigeranalytics. com
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ git config --global core.editot[Kr emacs
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ git config --global core.editor "'C:/Program Files/Notepad ++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ g[Kgit config --global init.defaultBranch main
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ $ git config --list
+$: command not found
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ $ git config --list[1P
+[?1h=user.name=Rishu[m
+user.email=rishu.singh@tigeranalytics.com[m
+core.editor='C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosessi[m on -noPlugin[m
+init.defaultbranch=main[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$  ~/.gitconfig,[K
+bash: /home/rishu_singh/.gitconfig: Permission denied
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ git config [K user.m[Kname
+Rishu
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ git help config
+[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                       Git Manual                      GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] name [[m value [value_regex]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --replace-all name value [value_re[m gex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get [m name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get-[m all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] [--nam[m [7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ $ cd C:/Users/user/my_project[1P[1P
+bash: cd: C:/Users/user/my_project: No such file or directory
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ $ cd C:/Users/user/my_project[C[1P:/Users/user/my_projectc:/Users/user/my_project[C[1P[C[1P
+bash: cd: c:/Users/user/my_project: No such file or directory
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ pwd
+/home/rishu_singh
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ cd my_pri[Koject
+bash: cd: my_project: No such file or directory
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ pwd
+/home/rishu_singh
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ cd U[KUsers
+bash: cd: Users: No such file or directory
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ cd ..
+]0;rishu_singh@TIGER01912: /home[01;32mrishu_singh@TIGER01912[00m:[01;34m/home[00m$ cd Users
+bash: cd: Users: No such file or directory
+]0;rishu_singh@TIGER01912: /home[01;32mrishu_singh@TIGER01912[00m:[01;34m/home[00m$ cd users
+bash: cd: users: No such file or directory
+]0;rishu_singh@TIGER01912: /home[01;32mrishu_singh@TIGER01912[00m:[01;34m/home[00m$ cd c/Users
+bash: cd: c/Users: No such file or directory
+]0;rishu_singh@TIGER01912: /home[01;32mrishu_singh@TIGER01912[00m:[01;34m/home[00m$ cd
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ cd /Users
+bash: cd: /Users: No such file or directory
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ pwd
+/home/rishu_singh
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ cd /Users
+bash: cd: /Users: No such file or directory
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ cd ..
+]0;rishu_singh@TIGER01912: /home[01;32mrishu_singh@TIGER01912[00m:[01;34m/home[00m$ cd ..
+]0;rishu_singh@TIGER01912: /[01;32mrishu_singh@TIGER01912[00m:[01;34m/[00m$ pwd
+/
+]0;rishu_singh@TIGER01912: /[01;32mrishu_singh@TIGER01912[00m:[01;34m/[00m$ cd c/Users
+bash: cd: c/Users: No such file or directory
+]0;rishu_singh@TIGER01912: /[01;32mrishu_singh@TIGER01912[00m:[01;34m/[00m$ cd home/Users
+bash: cd: home/Users: No such file or directory
+]0;rishu_singh@TIGER01912: /[01;32mrishu_singh@TIGER01912[00m:[01;34m/[00m$ cd home
+]0;rishu_singh@TIGER01912: /home[01;32mrishu_singh@TIGER01912[00m:[01;34m/home[00m$ cd Users
+bash: cd: Users: No such file or directory
+]0;rishu_singh@TIGER01912: /home[01;32mrishu_singh@TIGER01912[00m:[01;34m/home[00m$ cd rishu.singh
+bash: cd: rishu.singh: No such file or directory
+]0;rishu_singh@TIGER01912: /home[01;32mrishu_singh@TIGER01912[00m:[01;34m/home[00m$ cd rishu.[K_singh
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ pwd
+/home/rishu_singh
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ cd /mnt/c/Users/
+]0;rishu_singh@TIGER01912: /mnt/c/Users[01;32mrishu_singh@TIGER01912[00m:[01;34m/mnt/c/Users[00m$ cd users
+bash: cd: users: No such file or directory
+]0;rishu_singh@TIGER01912: /mnt/c/Users[01;32mrishu_singh@TIGER01912[00m:[01;34m/mnt/c/Users[00m$ mkdir users[K
+mkdir: cannot create directory ‘user’: Permission denied
+]0;rishu_singh@TIGER01912: /mnt/c/Users[01;32mrishu_singh@TIGER01912[00m:[01;34m/mnt/c/Users[00m$ mkdir my_project
+mkdir: cannot create directory ‘my_project’: Permission denied
+]0;rishu_singh@TIGER01912: /mnt/c/Users[01;32mrishu_singh@TIGER01912[00m:[01;34m/mnt/c/Users[00m$ cd C:/Users
+bash: cd: C:/Users: No such file or directory
+]0;rishu_singh@TIGER01912: /mnt/c/Users[01;32mrishu_singh@TIGER01912[00m:[01;34m/mnt/c/Users[00m$ cd C:/Users[C[1P/Users
+bash: cd: C/Users: No such file or directory
+]0;rishu_singh@TIGER01912: /mnt/c/Users[01;32mrishu_singh@TIGER01912[00m:[01;34m/mnt/c/Users[00m$ cd C:/Users[1P/Users[1P/Usersc/Users
+bash: cd: c/Users: No such file or directory
+]0;rishu_singh@TIGER01912: /mnt/c/Users[01;32mrishu_singh@TIGER01912[00m:[01;34m/mnt/c/Users[00m$ cd ..
+]0;rishu_singh@TIGER01912: /mnt/c[01;32mrishu_singh@TIGER01912[00m:[01;34m/mnt/c[00m$ cd ..
+]0;rishu_singh@TIGER01912: /mnt[01;32mrishu_singh@TIGER01912[00m:[01;34m/mnt[00m$ cd ..
+]0;rishu_singh@TIGER01912: /[01;32mrishu_singh@TIGER01912[00m:[01;34m/[00m$ pwf[Kd
+/
+]0;rishu_singh@TIGER01912: /[01;32mrishu_singh@TIGER01912[00m:[01;34m/[00m$ cd home
+]0;rishu_singh@TIGER01912: /home[01;32mrishu_singh@TIGER01912[00m:[01;34m/home[00m$ mkdir user
+mkdir: cannot create directory ‘user’: Permission denied
+]0;rishu_singh@TIGER01912: /home[01;32mrishu_singh@TIGER01912[00m:[01;34m/home[00m$ cd ..
+]0;rishu_singh@TIGER01912: /[01;32mrishu_singh@TIGER01912[00m:[01;34m/[00m$ cd /home/user/my_project
+bash: cd: /home/user/my_project: No such file or directory
+]0;rishu_singh@TIGER01912: /[01;32mrishu_singh@TIGER01912[00m:[01;34m/[00m$ cd i\[K[Krishu_singh
+bash: cd: rishu_singh: No such file or directory
+]0;rishu_singh@TIGER01912: /[01;32mrishu_singh@TIGER01912[00m:[01;34m/[00m$ pwd
+/
+]0;rishu_singh@TIGER01912: /[01;32mrishu_singh@TIGER01912[00m:[01;34m/[00m$ cd home/rishu_singh
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ pwd
+/home/rishu_singh
+]0;rishu_singh@TIGER01912: ~[01;32mrishu_singh@TIGER01912[00m:[01;34m~[00m$ cd Desktop
+]0;rishu_singh@TIGER01912: ~/Desktop[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop[00m$ mkdir my_project
+]0;rishu_singh@TIGER01912: ~/Desktop[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop[00m$ cd my_project
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git init
+Initialized empty Git repository in /home/rishu_singh/Desktop/my_project/.git/
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git add *.c
+fatal: pathspec '*.c' did not match any files
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git add LICENSE
+fatal: pathspec 'LICENSE' did not match any files
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git cimmit -m[1P[1@o
+error: switch `m' requires a value
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ ls my_project
+ls: cannot access 'my_project': No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ echo 'My Project' <[K> README
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git add REDA[K[KAm[KDME
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ gk[Kit add CONTRIBUTING,md
+fatal: pathspec 'CONTRIBUTING,md' did not match any files
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git statuus[K[Ks -s
+[32mA[m  README
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status --s
+error: ambiguous option: s (could be --short or --show-stash)
+usage: git status [<options>] [--] <pathspec>...
+
+    -v, --verbose         be verbose
+    -s, --short           show status concisely
+    -b, --branch          show branch information
+    --show-stash          show stash information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain[=<version>]
+                          machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --ignored[=<mode>]    show ignored files, optional modes: traditional, matching, no. (Default: traditional)
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules, optional when: all, dirty, untracked. (Default: all)
+    --column[=<style>]    list untracked files in columns
+    --no-renames          do not detect renames
+    -M, --find-renames[=<n>]
+                          detect renames, optionally set similarity index
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cat i[K.gitignore
+cat: .gitignore: No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ 
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cat .i[Kgitignore *.[oa'[K] *~
+cat: .gitignore: No such file or directory
+cat: '*.[oa]': No such file or directory
+cat: '*~': No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git diff
+[?1h=[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git diff --staged
+[?1h=[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..56266d3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git add CINTRIC[KBUTING[C[1PNTRIBUTINGoNTRIBUTING[C\NTRIBUTING[1PNTRIBUTING[1PNTRIBUTINGONTRIBUTING[C[C[C[C[C[C[C[C[C[C.md
+fatal: pathspec 'CONTRIBUTING.md' did not match any files
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ echo 'My Projrct[K[K[Kect [K' > CONTRIBUTING.md
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git add V[KCONTRIBUTING.md 
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ vim cont[K[K[K[KCONTRIBUTING.md 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;17r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[17;1H"CONTRIBUTING.md" 1L, 11C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HMy Project
+[94m~                                                                                   [3;1H~                                                                                   [4;1H~                                                                                   [5;1H~                                                                                   [6;1H~                                                                                   [7;1H~                                                                                   [8;1H~                                                                                   [9;1H~                                                                                   [10;1H~                                                                                   [11;1H~                                                                                   [12;1H~                                                                                   [13;1H~                                                                                   [14;1H~                                                                                   [15;1H~                                                                                   [16;1H~                                                                                   [m[17;67H1,1[11CAll[1;1H[?25h[?25l[17;57H^[[1;1H[17;59H[[1;1H[17;60H>[1;1H[17;61H0[1;1H[17;62H;[1;1H[17;63H1[1;1H[17;64H0[1;1H[17;65H;[1;1H[17;57H         [1;1H[?25h[?25l[17;57Hq[1;1H[?25h[?25l[17;58Hq[1;1H[17;1H[1mrecording @q[m[17;13H[K[17;67H1,1[11CAll[1;1H[?25h[?25l[17;57Hq[1;1H[17;1H[K[1;1H[17;67H1,1[11CAll[1;1H[?25h[?25l[17;57Hq[1;1H[?25h[?25l[17;58Hq[1;1H[17;1H[1mrecording @q[m[17;57H[K[17;67H1,1[11CAll[1;1H[?25h[?25l[17;57Hq[1;1H[17;1H[K[1;1H[17;67H1,1[11CAll[1;1H[?25h[?25l[17;57Hq[1;1H[?25h[?25l[17;58H^M[1;1H[17;57H   [1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;2H[17;69H2[1;2H[?25h[?25l[17;57H~@k[1;2H[17;57H   [1;3H[17;69H3[1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;3H[?25h[?25l[17;57H~@k[1;3H[17;57H   [1;4H[17;69H4[1;4H[?25h[?25l[17;57H~@k[1;4H[17;57H   [1;5H[17;69H5[1;5H[?25h[?25l[17;57H~@k[1;5H[17;57H   [1;6H[17;69H6[1;6H[?25h[?25l[17;57H~@k[1;6H[17;57H   [1;7H[17;69H7[1;7H[?25h[?25l[17;57H~@k[1;7H[17;57H   [1;8H[17;69H8[1;8H[?25h[?25l[17;57H~@k[1;8H[17;57H   [1;9H[17;69H9[1;9H[?25h[?25l[17;57H~@k[1;9H[17;57H   [1;10H[17;69H10[1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;9H[17;69H9 [1;9H[?25h[?25l[17;57H~@k[1;9H[17;57H   [1;10H[17;69H10[1;10H[?25h[?25l[17;57H~@k[1;10H[17;57H   [1;10H[?25h[?25l[17;57Ha[1;10H[17;57H [1;11H[17;1H[1m-- INSERT --[m[17;67H[K[17;67H1,11[10CAll[1;11H[?25h[?25l[2;1H[K[17;67H2,1 [2;1H[?25h[?25l[3;1H[K[17;67H3[3;1H[?25h[?25l[4;1H[K[17;67H4[4;1H[?25h[?25l[5;1H[K[17;67H5[5;1H[?25h[?25l[6;1H[K[17;67H6[6;1H[?25h[?25l[7;1H[K[17;67H7[7;1H[?25h[?25l[8;1H[K[17;67H8[8;1H[?25h[?25l[9;1H[K[17;67H9[9;1H[?25h[?25l[10;1H[K[17;67H10,1[10;1H[?25h[?25l[11;1H[K[17;68H1[11;1H[?25h[?25l[12;1H[K[17;68H2[12;1H[?25h[?25l[13;1H[K[17;68H3[13;1H[?25h[?25l[14;1H[K[17;68H4[14;1H[?25h[?25l[15;1H[K[17;68H5[15;1H[?25h[?25l[16;1H[K[17;68H6[16;1H[?25h[?25l[1;16r[16;1H
+[1;17r[17;67H[K[17;67H17,1[10CBot[16;1H[?25h[?25l[1;16r[16;1H
+[1;17r[17;67H[K[17;67H18,1[10CBot[16;1H[?25h[?25l[94m~                                                                                   [m[17;68H7[15;1H[?25h[?25l[94m~                                                                                   [m[17;68H6[14;1H[?25h[?25l[94m~                                                                                   [m[17;68H5[13;1H[?25h[?25l[94m~                                                                                   [m[17;68H4[12;1H[?25h[?25l[94m~                                                                                   [m[17;68H3[11;1H[?25h[?25l[94m~                                                                                   [m[17;68H2[10;1H[?25h[?25l[94m~                                                                                   [m[17;68H1[9;1H[?25h[?25l[94m~                                                                                   [m[17;68H0[8;1H[?25h[?25l[94m~                                                                                   [m[17;67H9,1 [7;1H[?25h[?25l[94m~                                                                                   [m[17;67H8[6;1H[?25h[?25l[1;16r[1;1H[L[1;17r[7;1H[94m~                                                                                   [m[17;67H[K[17;67H7,1[11CBot[6;1H[?25h[?25l[1;16r[1;1H[L[1;17r[1;1HMy Project[7;1H[94m~                                                                                   [m[17;67H[K[17;67H6,1[11CAll[6;1H[?25h[?25l[94m~                                                                                   [m[17;67H5[5;1H[?25h[?25l[94m~                                                                                   [m[17;67H4[4;1H[?25h[?25l[94m~                                                                                   [m[17;67H3[3;1H[?25h[?25l[94m~                                                                                   [m[17;67H2[2;1H[?25h[?25l[94m~                                                                                   [m[17;67H1,11[1;11H[?25h[?25l[1;10H[K[17;70H0[1;10H[?25h[?25l[1;9H[K[17;69H9 [1;9H[?25h[?25l[1;8H[K[17;69H8[1;8H[?25h[?25l[1;7H[K[17;69H7[1;7H[?25h[?25l[1;6H[K[17;69H6[1;6H[?25h[?25lo[17;69H7[1;7H[?25h[?25lj[17;69H8[1;8H[?25h[?25le[17;69H9[1;9H[?25h[?25lc[17;69H10[1;10H[?25h[?25lt[17;70H1[1;11H[?25h[?25l[17;70H2[1;12H[?25h[?25l[2;1H[K[17;67H2,1 [2;1H[?25h[17;1H[K[2;1H[?25l[17;57H^[[2;1H[17;57H  [2;1H[17;67H2,0-1[9CAll[2;1H[?25h[?25l[17;57H^[[2;1H[17;57H  [2;1H[17;57H^[[2;1H[17;57H  [2;1H[?25h[?25l[17;57H^[[2;1H[17;57H  [2;1H[17;57H^[[2;1H[17;57H  [2;1H[?25h[?25l[17;57H^[[2;1H[17;57H  [2;1H[17;57H^[[2;1H[17;57H  [2;1H[?25h[?25l[17;57H^[[2;1H[17;57H  [2;1H[17;57H^[[2;1H[17;57H  [2;1H[?25h[?25l[17;57H^[[2;1H[17;57H  [2;1H[17;57H^[[2;1H[17;57H  [2;1H[?25h[?25l[17;57H^Z[2;1H[17;1H
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[1]+  Stopped                 vim CONTRIBUTING.md
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git sat[K[Ktatus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git add CONTRIBUTING.md 
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ echo '#test line' >> COM[KNTRIBUTING.md `[K
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git diff
+[?1h=[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mindex 56266d3..d712730 100644[m[m
+[1m--- a/CONTRIBUTING.md[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -1 +1,2 @@[m[m
+ My Project[m[m
+[32m+[m[32m#test line[m[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git diff --cached
+[?1h=[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..56266d3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..56266d3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git comit
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git commit
+hint: Waiting for your editor to close the file... 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin: 1: C:/Program Files/Notepad++/notepad++.exe: not found
+error: There was a problem with the editor ''C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin'.
+Please supply the message using either -m or -F option.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git commit -m
+error: switch `m' requires a value
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git commif[Kt -,[Kmc[K "Story 182: fix benchmark for speed"
+[master (root-commit) c647271] Story 182: fix benchmarkfor speed
+ 2 files changed, 2 insertions(+)
+ create mode 100644 CONTRIBUTING.md
+ create mode 100644 README
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git sat[K[Ktatus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ rm PROJECTS.md
+rm: cannot remove 'PROJECTS.md': No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git mv README.md README
+fatal: bad source, source=README.md, destination=README
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ my README [K.md README 
+my: command not found
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ $ git clone https://github.com/schacon/simplegit-progit[A]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ [19Pmy README.md README 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$ git clone https://github.com/schacon/simplegit-progit[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone https://github.com/schacon/si[1Pmplegit-progit[A]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ [Cgit clone https://github.com/schacon/sim[1Pplegit-progit[A]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ 
+
+Cloning into 'simplegit-progit'...
+remote: Enumerating objects: 13, done.[K
+remote: Total 13 (delta 0), reused 0 (delta 0), pack-reused 13[K
+Unpacking objects:   7% (1/13)Unpacking objects:  15% (2/13)Unpacking objects:  23% (3/13)Unpacking objects:  30% (4/13)Unpacking objects:  38% (5/13)Unpacking objects:  46% (6/13)Unpacking objects:  53% (7/13)Unpacking objects:  61% (8/13)Unpacking objects:  69% (9/13)Unpacking objects:  76% (10/13)Unpacking objects:  84% (11/13)Unpacking objects:  92% (12/13)Unpacking objects: 100% (13/13)Unpacking objects: 100% (13/13), 1.55 KiB | 528.00 KiB/s, done.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git log
+[?1h=[33mcommit c6472713175d3fe7f3c7e938c1ac346a70190f02[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Rishu <rishu.singh@tigeranalytics.com>[m
+Date:   Fri Jul 7 16:07:40 2023 +0530[m
+[m
+    Story 182: fix benchmarkfor speed[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git log -p -2
+[?1h=[33mcommit c6472713175d3fe7f3c7e938c1ac346a70190f02[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Rishu <rishu.singh@tigeranalytics.com>[m
+Date:   Fri Jul 7 16:07:40 2023 +0530[m
+[m
+    Story 182: fix benchmarkfor speed[m
+[m
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..56266d3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..56266d3[m[m
+:[K[K[1m--- /dev/null[m[m
+:[K[K[1m+++ b/README[m[m
+:[K[K[36m@@ -0,0 +1 @@[m[m
+:[K[K[32m+[m[32mMy Project[m[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[Kee[K[7m(END)[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[17;1H[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ 
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ l[Kgo[Kit log --stat
+[?1h=[33mcommit c6472713175d3fe7f3c7e938c1ac346a70190f02[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Rishu <rishu.singh@tigeranalytics.com>[m
+Date:   Fri Jul 7 16:07:40 2023 +0530[m
+[m
+    Story 182: fix benchmarkfor speed[m
+[m
+ CONTRIBUTING.md | 1 [32m+[m[m
+ README          | 1 [32m+[m[m
+ 2 files changed, 2 insertions(+)[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git log --pretty=oneline
+[?1h=[33mc6472713175d3fe7f3c7e938c1ac346a70190f02[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Story 182: fix benchmarkfo[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[mr speed[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git o[Klog --pretty=g[Kformat:"%h -%an, %ar :  %s"
+[?1h=c647271 -Rishu, 7 minutes ago : Story 182: fix benchmarkfor speed[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git log --pretty=format
+fatal: invalid --pretty format: format
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git log --since [K=2.weeks
+[?1h=[33mcommit c6472713175d3fe7f3c7e938c1ac346a70190f02[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Rishu <rishu.singh@tigeranalytics.com>[m
+Date:   Fri Jul 7 16:07:40 2023 +0530[m
+[m
+    Story 182: fix benchmarkfor speed[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git log -- path/to/file
+[?1h=[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git commit --amend
+hint: Waiting for your editor to close the file... 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin: 1: C:/Program Files/Notepad++/notepad++.exe: not found
+error: There was a problem with the editor ''C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin'.
+Please supply the message using either -m or -F option.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git -m "[K'Initial commit'
+unknown option: -m
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git add forgotten_fike[K[Kle
+fatal: pathspec 'forgotten_file' did not match any files
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git commit --amend
+hint: Waiting for your editor to close the file... 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin: 1: C:/Program Files/Notepad++/notepad++.exe: not found
+error: There was a problem with the editor ''C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin'.
+Please supply the message using either -m or -F option.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git add 8[K&[K*
+warning: adding embedded git repository: simplegit-progit
+[33mhint: You've added another git repository inside your current repository.[m
+[33mhint: Clones of the outer repository will not contain the contents of[m
+[33mhint: the embedded repository and will not know how to obtain it.[m
+[33mhint: If you meant to add a submodule, use:[m
+[33mhint: [m
+[33mhint: 	git submodule add <url> simplegit-progit[m
+[33mhint: [m
+[33mhint: If you added this path by mistake, you can remove it from the[m
+[33mhint: index with:[m
+[33mhint: [m
+[33mhint: 	git rm --cached simplegit-progit[m
+[33mhint: [m
+[33mhint: See "git help submodule" for more information.[m
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   CONTRIBUTING.md[m
+	[32mnew file:   simplegit-progit[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git resrt[K[Ket HEAD CONTRIBUTING.md
+Unstaged changes after reset:
+M	CONTRIBUTING.md
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   simplegit-progit[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git cj[Kheckout --CI[KONTRIBUTING.[K.md
+error: unknown option `CONTRIBUTING.md'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --guess               second guess 'git checkout <no-such-branch>' (default)
+    --overlay             use overlay mode (default)
+    -q, --quiet           suppress progress reporting
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+    -m, --merge           perform a 3-way merge with the new branch
+    --conflict <style>    conflict style (merge or diff3)
+    -d, --detach          detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    -f, --force           force checkout (throw away local modifications)
+    --orphan <new-branch>
+                          new unparented branch
+    --overwrite-ignore    update ignored files (default)
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   simplegit-progit[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ go[Kit add *
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git  sat[K[K[K[Kstatus
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   CONTRIBUTING.md[m
+	[32mnew file:   simplegit-progit[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git restore --sy[Ktaged CONTRIBUTING.md
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git stats[Kus
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   simplegit-progit[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git restore CONTRIBUTING.md
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   simplegit-progit[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git clone https://github.com/schacon/ti cgit
+Cloning into 'ticgit'...
+remote: Enumerating objects: 1857, done.[K
+Receiving objects:   0% (1/1857)Receiving objects:   1% (19/1857)Receiving objects:   2% (38/1857)Receiving objects:   3% (56/1857)Receiving objects:   4% (75/1857)Receiving objects:   5% (93/1857)Receiving objects:   6% (112/1857)Receiving objects:   7% (130/1857)Receiving objects:   8% (149/1857)Receiving objects:   9% (168/1857)Receiving objects:  10% (186/1857)Receiving objects:  11% (205/1857)Receiving objects:  12% (223/1857)Receiving objects:  13% (242/1857)Receiving objects:  14% (260/1857)Receiving objects:  15% (279/1857)Receiving objects:  16% (298/1857)Receiving objects:  17% (316/1857)Receiving objects:  18% (335/1857)Receiving objects:  19% (353/1857)Receiving objects:  20% (372/1857)Receiving objects:  21% (390/1857)Receiving objects:  22% (409/1857)Receiving objects:  23% (428/1857)Receiving objects:  24% (446/1857)Receiving objects:  25% (465/1857)Receiving objects:  26% (483/1857)Receiving objects:  27% (502/1857)Receiving objects:  28% (520/1857)Receiving objects:  29% (539/1857)Receiving objects:  30% (558/1857)Receiving objects:  31% (576/1857)Receiving objects:  32% (595/1857)Receiving objects:  33% (613/1857)Receiving objects:  34% (632/1857)Receiving objects:  35% (650/1857)Receiving objects:  36% (669/1857)Receiving objects:  37% (688/1857)Receiving objects:  38% (706/1857)Receiving objects:  39% (725/1857)Receiving objects:  40% (743/1857)Receiving objects:  41% (762/1857)Receiving objects:  42% (780/1857)Receiving objects:  43% (799/1857)Receiving objects:  44% (818/1857)Receiving objects:  45% (836/1857)Receiving objects:  46% (855/1857)Receiving objects:  47% (873/1857)Receiving objects:  48% (892/1857)Receiving objects:  49% (910/1857)Receiving objects:  50% (929/1857)Receiving objects:  51% (948/1857)Receiving objects:  52% (966/1857)Receiving objects:  53% (985/1857)Receiving objects:  54% (1003/1857)Receiving objects:  55% (1022/1857)Receiving objects:  56% (1040/1857)Receiving objects:  57% (1059/1857)Receiving objects:  58% (1078/1857)Receiving objects:  59% (1096/1857)Receiving objects:  60% (1115/1857)Receiving objects:  61% (1133/1857)Receiving objects:  62% (1152/1857)Receiving objects:  63% (1170/1857)Receiving objects:  64% (1189/1857)Receiving objects:  65% (1208/1857)Receiving objects:  66% (1226/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  67% (1245/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  68% (1263/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  69% (1282/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  70% (1300/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  71% (1319/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  72% (1338/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  73% (1356/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  74% (1375/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  75% (1393/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  76% (1412/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  77% (1430/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  78% (1449/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  79% (1468/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  80% (1486/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  81% (1505/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  82% (1523/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  83% (1542/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  84% (1560/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  85% (1579/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  86% (1598/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  87% (1616/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  88% (1635/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  89% (1653/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  90% (1672/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  91% (1690/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  92% (1709/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  93% (1728/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  94% (1746/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  95% (1765/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  96% (1783/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  97% (1802/1857), 260.01 KiB | 505.00 KiB/sReceiving objects:  98% (1820/1857), 260.01 KiB | 505.00 KiB/sremote: Total 1857 (delta 0), reused 0 (delta 0), pack-reused 1857[K
+Receiving objects:  99% (1839/1857), 260.01 KiB | 505.00 KiB/sReceiving objects: 100% (1857/1857), 260.01 KiB | 505.00 KiB/sReceiving objects: 100% (1857/1857), 334.06 KiB | 605.00 KiB/s, done.
+Resolving deltas:   0% (0/837)Resolving deltas:   1% (13/837)Resolving deltas:   2% (19/837)Resolving deltas:   3% (30/837)Resolving deltas:   4% (34/837)Resolving deltas:   5% (42/837)Resolving deltas:  10% (87/837)Resolving deltas:  11% (96/837)Resolving deltas:  12% (103/837)Resolving deltas:  13% (109/837)Resolving deltas:  14% (124/837)Resolving deltas:  18% (156/837)Resolving deltas:  19% (160/837)Resolving deltas:  20% (170/837)Resolving deltas:  22% (185/837)Resolving deltas:  23% (195/837)Resolving deltas:  24% (207/837)Resolving deltas:  25% (210/837)Resolving deltas:  26% (220/837)Resolving deltas:  27% (226/837)Resolving deltas:  29% (248/837)Resolving deltas:  30% (252/837)Resolving deltas:  31% (261/837)Resolving deltas:  32% (270/837)Resolving deltas:  33% (282/837)Resolving deltas:  34% (286/837)Resolving deltas:  43% (362/837)Resolving deltas:  44% (370/837)Resolving deltas:  45% (382/837)Resolving deltas:  46% (387/837)Resolving deltas:  47% (397/837)Resolving deltas:  48% (406/837)Resolving deltas:  49% (413/837)Resolving deltas:  51% (430/837)Resolving deltas:  52% (437/837)Resolving deltas:  53% (449/837)Resolving deltas:  54% (452/837)Resolving deltas:  55% (468/837)Resolving deltas:  56% (469/837)Resolving deltas:  57% (478/837)Resolving deltas:  61% (515/837)Resolving deltas:  66% (554/837)Resolving deltas:  67% (563/837)Resolving deltas:  68% (570/837)Resolving deltas:  69% (581/837)Resolving deltas:  70% (586/837)Resolving deltas:  76% (640/837)Resolving deltas:  77% (645/837)Resolving deltas:  78% (656/837)Resolving deltas:  80% (673/837)Resolving deltas:  81% (679/837)Resolving deltas:  82% (689/837)Resolving deltas:  83% (696/837)Resolving deltas:  85% (716/837)Resolving deltas:  86% (725/837)Resolving deltas:  87% (730/837)Resolving deltas:  89% (749/837)Resolving deltas:  95% (797/837)Resolving deltas: 100% (837/837)Resolving deltas: 100% (837/837), done.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cd ticgit
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git remote
+origin
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git remote -v
+origin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ cd grit
+bash: cd: grit: No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ cd grit
+bash: cd: grit: No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ cd ..
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cd grit
+bash: cd: grit: No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cd ticgit
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ cd grit
+bash: cd: grit: No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git remote -v
+origin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git remote
+origin
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git remote add pd[Kb https://github.com/paulboone/ticgit
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git remote -v
+origin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
+pb	https://github.com/paulboone/ticgit (fetch)
+pb	https://github.com/paulboone/ticgit (push)
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git fetch pb
+remote: Enumerating objects: 43, done.[K
+remote: Counting objects:   4% (1/22)[Kremote: Counting objects:   9% (2/22)[Kremote: Counting objects:  13% (3/22)[Kremote: Counting objects:  18% (4/22)[Kremote: Counting objects:  22% (5/22)[Kremote: Counting objects:  27% (6/22)[Kremote: Counting objects:  31% (7/22)[Kremote: Counting objects:  36% (8/22)[Kremote: Counting objects:  40% (9/22)[Kremote: Counting objects:  45% (10/22)[Kremote: Counting objects:  50% (11/22)[Kremote: Counting objects:  54% (12/22)[Kremote: Counting objects:  59% (13/22)[Kremote: Counting objects:  63% (14/22)[Kremote: Counting objects:  68% (15/22)[Kremote: Counting objects:  72% (16/22)[Kremote: Counting objects:  77% (17/22)[Kremote: Counting objects:  81% (18/22)[Kremote: Counting objects:  86% (19/22)[Kremote: Counting objects:  90% (20/22)[Kremote: Counting objects:  95% (21/22)[Kremote: Counting objects: 100% (22/22)[Kremote: Counting objects: 100% (22/22), done.[K
+remote: Total 43 (delta 22), reused 22 (delta 22), pack-reused 21[K
+Unpacking objects:   2% (1/43)Unpacking objects:   4% (2/43)Unpacking objects:   6% (3/43)Unpacking objects:   9% (4/43)Unpacking objects:  11% (5/43)Unpacking objects:  13% (6/43)Unpacking objects:  16% (7/43)Unpacking objects:  18% (8/43)Unpacking objects:  20% (9/43)Unpacking objects:  23% (10/43)Unpacking objects:  25% (11/43)Unpacking objects:  27% (12/43)Unpacking objects:  30% (13/43)Unpacking objects:  32% (14/43)Unpacking objects:  34% (15/43)Unpacking objects:  37% (16/43)Unpacking objects:  39% (17/43)Unpacking objects:  41% (18/43)Unpacking objects:  44% (19/43)Unpacking objects:  46% (20/43)Unpacking objects:  48% (21/43)Unpacking objects:  51% (22/43)Unpacking objects:  53% (23/43)Unpacking objects:  55% (24/43)Unpacking objects:  58% (25/43)Unpacking objects:  60% (26/43)Unpacking objects:  62% (27/43)Unpacking objects:  65% (28/43)Unpacking objects:  67% (29/43)Unpacking objects:  69% (30/43)Unpacking objects:  72% (31/43)Unpacking objects:  74% (32/43)Unpacking objects:  76% (33/43)Unpacking objects:  79% (34/43)Unpacking objects:  81% (35/43)Unpacking objects:  83% (36/43)Unpacking objects:  86% (37/43)Unpacking objects:  88% (38/43)Unpacking objects:  90% (39/43)Unpacking objects:  93% (40/43)Unpacking objects:  95% (41/43)Unpacking objects:  97% (42/43)Unpacking objects: 100% (43/43)Unpacking objects: 100% (43/43), 5.99 KiB | 510.00 KiB/s, done.
+From https://github.com/paulboone/ticgit
+ * [new branch]      master     -> pb/master
+ * [new branch]      ticgit     -> pb/ticgit
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git fetch <>r>e>m>o>t>e>
+bash: syntax error near unexpected token `newline'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git push origin master
+Username for 'https://github.com': ris   visha_r19 0
+Password for 'https://visha_r10@github.com': 
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git puch origin master
+git: 'puch' is not a git command. See 'git --help'.
+
+The most similar command is
+	push
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git push origin master
+Username for 'https://github.com': rishu5294
+Password for 'https://rishu5294@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/schacon/ticgit/'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/schacon/ticgit
+  Push  URL: https://github.com/schacon/ticgit
+  HEAD branch: master
+  Remote branches:
+    master tracked
+    ticgit tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git remote rename pb paul
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git remote
+origin
+paul
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git remote remove paul
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git remote
+origin
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git tag
+[?1h=[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git tah[Kg -1 "v1.8.5"[K*:[K"
+error: unknown switch `1'
+usage: git tag [-a | -s | -u <key-id>] [-f] [-m <msg> | -F <file>]
+		<tagname> [<head>]
+   or: git tag -d <tagname>...
+   or: git tag -l [-n[<num>]] [--contains <commit>] [--no-contains <commit>] [--points-at <object>]
+		[--format=<format>] [--[no-]merged [<commit>]] [<pattern>...]
+   or: git tag -v [--format=<format>] <tagname>...
+
+    -l, --list            list tag names
+    -n[<n>]               print <n> lines of each tag message
+    -d, --delete          delete tags
+    -v, --verify          verify tags
+
+Tag creation options
+    -a, --annotate        annotated tag, needs a message
+    -m, --message <message>
+                          tag message
+    -F, --file <file>     read message from file
+    -e, --edit            force edit of tag message
+    -s, --sign            annotated and GPG-signed tag
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -u, --local-user <key-id>
+                          use another key to sign the tag
+    -f, --force           replace the tag if exists
+    --create-reflog       create a reflog
+
+Tag listing options
+    --column[=<style>]    show tag list in columns
+    --contains <commit>   print only tags that contain the commit
+    --no-contains <commit>
+                          print only tags that don't contain the commit
+    --merged <commit>     print only tags that are merged
+    --no-merged <commit>  print only tags that are not merged
+    --sort <key>          field name to sort on
+    --points-at <object>  print only tags of the object
+    --format <format>     format to use for the output
+    --color[=<when>]      respect format colors
+    -i, --ignore-case     sorting and filtering are case insensitive
+
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git tag -1 "v1.8.5*"[1P "v1.8.5*"l "v1.8.5*"
+[?1h=[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git config --global alias.co checkout
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git config --global alias.br bra nch
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git config --global alias.ci commit
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git config --global alias.st sta tus
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git config --global alias.unstag e 'reset HEAD --'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git unstage fileA
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git reset HEAD -- fileA
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git config --global alias.last 'log -1 HEAD'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git last
+[?1h=[33mcommit 847256809a3d518cd36b8f81859401416fe8d945[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morig[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31min/HEAD[m[33m)[m[m
+Author: Jeff Welling <Jeff.Welling@Gmail.com>[m
+Date:   Tue Apr 26 17:29:17 2011 -0700[m
+[m
+    Added note to clarify which is the canonical TicGit-ng repo[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git config --global alias.visual  '!gitk'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ git add README test.rb LICENSE
+fatal: pathspec 'README' did not match any files
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project/ticgit[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project/ticgit[00m$ cd ..
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$  git add README test.rb LICENSE
+fatal: pathspec 'test.rb' did not match any files
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git commit -m 'Initial commit'
+[master c2eab82] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 160000 simplegit-progit
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git branch testing
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git log --onrline --decorate
+fatal: unrecognized argument: --onrline
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git log --onrlinr[1Plinrelinr[C[C[C[C[Kr[Ke --decorate
+[?1h=[33mc2eab82[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mtesting[m[33m)[m Initial commit[m
+[33mc647271[m Story 182: fix benchmarkfor speed[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git checkout tt[Kesting
+Switched to branch 'testing'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ iv[K[Kvim test.rb
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;17r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[17;1H"test.rb" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                   [3;1H~                                                                                   [4;1H~                                                                                   [5;1H~                                                                                   [6;1H~                                                                                   [7;1H~                                                                                   [8;1H~                                                                                   [9;1H~                                                                                   [10;1H~                                                                                   [11;1H~                                                                                   [12;1H~                                                                                   [13;1H~                                                                                   [14;1H~                                                                                   [15;1H~                                                                                   [16;1H~                                                                                   [m[17;67H0,0-1[9CAll[1;1H[?25h[?25l[17;57Hq[1;1H[?25h[?25l[17;58H^M[1;1H[17;57H   [1;1H[?25h[?25l[17;57H`[1;1H[?25h[?25l[17;58H^[[1;1H[17;58H  [1;1H[17;58H^[[1;1H[17;57H   [1;1H[?25h[?25l[17;57H^[[1;1H[17;57H  [1;1H[17;57H^[[1;1H[17;57H  [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H~@k[1;1H[17;57H   [1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^[[1;1H[17;57H  [1;1H[17;57H^[[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^[[1;1H[17;57H  [1;1H[17;57H^[[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^[[1;1H[17;57H  [1;1H[17;57H^[[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^[[1;1H[17;57H  [1;1H[17;57H^[[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^[[1;1H[17;57H  [1;1H[17;57H^[[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^[[1;1H[17;57H  [1;1H[17;57H^[[1;1H[17;57H  [1;1H[?25h[?25l[17;57Hq[1;1H[?25h[?25l[17;58Hq[1;1H[17;1H[1mrecording @q[m[17;13H[K[17;67H0,0-1[9CAll[1;1H[?25h[?25l[17;57Hq[1;1H[17;1H[K[1;1H[17;67H0,0-1[9CAll[1;1H[?25h[?25l[17;57Hq[1;1H[?25h[?25l[17;58Hq[1;1H[17;1H[1mrecording @q[m[17;57H[K[17;67H0,0-1[9CAll[1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^M[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^X[1;1H[17;57H  [1;1H[?25h[?25l[17;57H^Z[1;1H[17;1H
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[2]+  Stopped                 vim test.rb
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git ci[Kommit - a0[K[K[Ka -m 'Make a change'
+On branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+	[31m.test.rb.swp[m
+	[31mticgit/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git checkout master
+Switched to branch 'master'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git checj[Kkout -b iss53
+Switched to a new branch 'iss53'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git branch iss53
+fatal: A branch named 'iss53' already exists.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git checj[Kkout iss53
+Already on 'iss53'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ vim index [K.html
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;17r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[17;1H"index.html" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                   [3;1H~                                                                                   [4;1H~                                                                                   [5;1H~                                                                                   [6;1H~                                                                                   [7;1H~                                                                                   [8;1H~                                                                                   [9;1H~                                                                                   [10;1H~                                                                                   [11;1H~                                                                                   [12;1H~                                                                                   [13;1H~                                                                                   [14;1H~                                                                                   [15;1H~                                                                                   [16;1H~                                                                                   [m[17;67H0,0-1[9CAll[1;1H[?25h[?25l[17;57H^Z[1;1H[17;1H
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[3]+  Stopped                 vim index.html
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git commit -a -m 'Create new footer [is sue 53'[K]'
+On branch iss53
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+	[31m.index.html.swp[m
+	[31m.test.rb.swp[m
+	[31mticgit/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git checkout master
+Switched to branch 'master'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git checkout -b hotflix
+Switched to a new branch 'hotflix'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ vim index.html
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;17r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[17;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name ".index.html.swp"
+[10Cowned by: rishu_singh   dated: Fri Jul 07 19:07:51 2023
+[9Cfile name: ~rishu_singh/Desktop/my_project/index.html
+[10Cmodified: no
+[9Cuser name: rishu_singh   host name: TIGER01912
+[8Cprocess ID: 675 (STILL RUNNING)
+While opening file "index.html"
+      CANNOT BE FOUND
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r index.html"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".index.html.swp"
+[32m-- More --[?25h[m[17;1H[K[17;5Hto avoid this message.
+[32m-- More --[m[17;1H[K[17;1H
+[32m-- More --[m[17;1H[K[17;1H[32mSwap file ".index.html.swp" already exists![m
+[32m-- More --[m[17;1H[K[17;1H[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [m[17;1H[K[?25l[17;1H"index.html" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;10H[K[2;1H[94m~                                                                                   [3;1H~                                                                                   [4;1H~                                                                                   [5;1H~                                                                                   [6;1H~                                                                                   [7;1H~                                                                                   [8;1H~                                                                                   [9;1H~                                                                                   [10;1H~                                                                                   [11;1H~                                                                                   [12;1H~                                                                                   [13;1H~                                                                                   [14;1H~                                                                                   [15;1H~                                                                                   [16;1H~                                                                                   [m[17;67H0,0-1[9CAll[1;1H[?25h[?25l[17;57H^[[1;1H[17;59H[[1;1H[17;60H>[1;1H[17;61H0[1;1H[17;62H;[1;1H[17;63H1[1;1H[17;64H0[1;1H[17;65H;[1;1H[17;57H         [1;1H[?25h[?25l[17;57H^Z[1;1H[17;1H
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[4]+  Stopped                 vim index.html
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git commit -a -m 'Fix broken email addr ess'
+On branch hotflix
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+	[31m.index.html.swo[m
+	[31m.index.html.swp[m
+	[31m.test.rb.swp[m
+	[31mticgit/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git checkout master
+Switched to branch 'master'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git merge hotflix
+Already up to date.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git branch -d hotflix
+Deleted branch hotflix (was c2eab82).
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git checkout mAS[K[Kaas[K[Kse[Kter
+Already on 'master'
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git merge iss53
+Already up to date.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git branch -d iss53
+Deleted branch iss53 (was c2eab82).
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git mere[Kfe[K[Kge iss53
+merge: iss53 - not something we can merge
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+	[31m.index.html.swo[m
+	[31m.index.html.swp[m
+	[31m.test.rb.swp[m
+	[31mticgit/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse diffmerge ecmerge p4merge araxis bc codecompare smerge emerge vimdiff
+No files need merging
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git d[Kstatus
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.CONTRIBUTING.md.swp[m
+	[31m.index.html.swo[m
+	[31m.index.html.swp[m
+	[31m.test.rb.swp[m
+	[31mticgit/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git branch -d testing
+Deleted branch testing (was c2eab82).
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git brs[Kanch -D testing
+error: branch 'testing' not found.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git brsn[K[Kach [K[Knch [K[K[K[K[Knch --move bad-branch-namm[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit branch --all
+[?1h=* [32mmaster[m[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git branch --move bad-name[K[K[K[Kbranch-name corre cted [K-branch [K-name
+error: refname refs/heads/bad-branch-name not found
+fatal: Branch rename failed
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git push --set-upstream origin correcte d-branch [K-name
+error: src refspec corrected-branch-name does not match any
+[31merror: failed to push some refs to 'origin'
+[m]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git branch -a[K-all
+[?1h=* [32mmaster[m[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git push origin --delete bad [K-branch-nm[Kam e
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git be[Kranch --move master main
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git push --set-upstream origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git branch --all
+[?1h=* [32mmain[m[m
+[K[?1l>]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ git push origin --delete master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ exit
+exit
+There are stopped jobs.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cp my* "/mnt/c/Users/UserName/Desktop/" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"
+cp: cannot stat 'my*': No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cp my* "/mnt/c/Users/UserName/Desktop/" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K"
+cp: cannot stat 'my*': No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cp my* "/mnt/c/Users/UserName/Desktop/" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"/mnt/c/Users/UserName/Desktop/"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"/mnt/c/Users/UserName/Desktop/"[1P"/mnt/c/Users/UserName/Desktop/"[1P"/mnt/c/Users/UserName/Desktop/"
+cp: missing destination file operand after '/mnt/c/Users/UserName/Desktop/'
+Try 'cp --help' for more information.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cp my* "/mnt/c/Users/UserName/Desktop/" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/Desktop/"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/Desktop/"[1P/Desktop/"[1P/Desktop/"[1P/Desktop/"[1P/Desktop/"[1P/Desktop/"[1P/Desktop/"r/Desktop/"i/Desktop/"s/Desktop/"h/Desktop/"y/Desktop/"[1P/Desktop/"u/Desktop/"./Desktop/"s/Desktop/"i/Desktop/" [A]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn/Desktop/"[A]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg/Desktop/"[A]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch/Desktop/"[A]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+cp: cannot stat 'my*': No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cp my* "/mnt/c/Users/UserName/Desktop/" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"/mnt/c/Users/UserName/Desktop/"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"/mnt/c/Users/UserName/Desktop/"[1P"/mnt/c/Users/UserName/Desktop/"[1P"/mnt/c/Users/UserName/Desktop/"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/Desktop/"[1P/Desktop/"[1P/Desktop/"[1P/Desktop/"[1P/Desktop/"[1P/Desktop/"[1P/Desktop/"[1P/Desktop/"r/Desktop/"i/Desktop/"s/Desktop/"h/Desktop/"u/Desktop/"./Desktop/"s/Desktop/"i/Desktop/"n/Desktop/"g/Desktop/"h/Desktop/"
+cp: missing destination file operand after '/mnt/c/Users/rishu.singh/Desktop/'
+Try 'cp --help' for more information.
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cp my* "/mnt/c/Users/UserName/Desktop/" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/c/Users/UserName/Desktop/"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/c/Users/UserName/Desktop/"[1P/c/Users/UserName/Desktop/"[1Pc/Users/UserName/Desktop/"
+cp: cannot stat 'my*': No such file or directory
+]0;rishu_singh@TIGER01912: ~/Desktop/my_project[01;32mrishu_singh@TIGER01912[00m:[01;34m~/Desktop/my_project[00m$ cp my* "/mnt/c/Users/UserName/Desktop/" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/c/Users/UserName/Desktop/"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[
